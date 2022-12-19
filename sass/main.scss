@@ -1,17 +1,18 @@
+
 @import './base/reset';
 @import './utils/vars';
-@import './components/container.scss';
+@import './components/container';
 @import './base/common';
 @import './utils/hidden';
 @import './components/title';
-
-
+@import './components/section';
+@import './components/modal';
+@import './components/_footer-sub-form';
 @import './layout/header';
 @import './layout/hero';
 @import './layout/advantages';
-@import './layout/what';
-@import './our-team';
+@import './layout/team';
 @import './layout/clients';
-@import '';
-@import '';
-@import '';
+@import './layout/portfolio-filter';
+@import './layout/portfolio-projects';
+@import './layout/footer';
