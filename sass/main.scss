@@ -1,17 +1,18 @@
-@import './utils/vars';
 @import './base/reset';
-@import './base/common'; 
-@import './utils/hidden';
+@import './utils/vars';
 @import './components/container';
+@import './base/common';
+@import './utils/hidden';
 @import './components/title';
-@import './components/section';
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/advantages';
+@import './layouts/what-we-do';
+@import './layouts/team';
+@import './layouts/clients';
+@import './layouts/portfolio-filter';
+@import './layouts/projects';
+@import './layouts/footer';
 @import './components/modal';
-@import './components/_footer-sub-form';
-@import './layout/header';
-@import './layout/hero';
-@import './layout/advantages';
-@import './layout/team';
-@import './layout/clients';
-@import './layout/portfolio-filter';
-@import './layout/portfolio-projects';
-@import './layout/footer';
+
+

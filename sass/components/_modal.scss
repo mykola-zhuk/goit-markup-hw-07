@@ -42,11 +42,10 @@
   }
   .modal-close-icon {
     transition: var(--transition-value);
-    .modal-close:hover & {
-      fill: var(--btn-hover-background-color);
-    }
   }
-  
+  .modal-close:hover .modal-close-icon {
+    fill: var(--btn-hover-background-color);
+  }
   .backdrop.is-hidden {
     opacity: 0;
     visibility: hidden;
@@ -81,15 +80,13 @@
     border-radius: 4px;
   
     resize: none;
-
-    &::placeholder {
-      font-weight: 400;
-      font-size: 12px;
-      color: rgba(117, 117, 117, 0.5);
-    }
   }
   
-  
+  .modal-text::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(117, 117, 117, 0.5);
+  }
   .modal-input:focus {
     border-color: var(--btn-hover-background-color);
   }

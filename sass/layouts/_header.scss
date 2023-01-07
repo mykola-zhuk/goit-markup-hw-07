@@ -1,10 +1,10 @@
-  .site-header {
+.site-header {
     padding: 25px;
   
     background-color: var(--first-background-color);
     border-bottom: 1px solid #ececec;
   }
-  .logo,
+  .site-logo,
   .site-nav-link {
     text-decoration: none;
   }
@@ -14,15 +14,11 @@
     gap: 50px;
   }
   
-  .header_container {
+  .header-container {
     display: flex;
     align-items: center;
   }
-  .navigation {
-    display: flex;
-    align-items: center;
-  }
-  .logo__word-web {
+  .logo-word-web {
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -31,7 +27,7 @@
     letter-spacing: 0.03em;
     color: var(--logo-color-1);
   }
-  .logo__word-studio {
+  .logo-word-studio {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 26px;
