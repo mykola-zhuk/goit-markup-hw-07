@@ -95,13 +95,13 @@ body {
   color: var(--main-text-color);
 }
 
-.header {
+.site-header {
   padding: 25px;
   background-color: var(red);
   border-bottom: 1px solid #ececec;
 }
 
-.logo,
+.site-logo,
 .site-nav-link {
   text-decoration: none;
 }
@@ -113,11 +113,6 @@ body {
 }
 
 .header-container {
-  display: flex;
-  align-items: center;
-}
-
-.header-navigation {
   display: flex;
   align-items: center;
 }
