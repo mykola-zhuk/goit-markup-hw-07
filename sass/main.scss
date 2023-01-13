@@ -1,9 +1,3 @@
-@import './base/reset';
-@import './utils/vars';
-@import './components/container';
-@import './base/common';
-@import './utils/hidden';
-@import './components/title';
 @import './layouts/header';
 @import './layouts/hero';
 @import './layouts/advantages';
@@ -11,8 +5,5 @@
 @import './layouts/team';
 @import './layouts/clients';
 @import './layouts/portfolio-filter';
-@import './layouts/projects';
+@import './layouts/portfolio-projects';
 @import './layouts/footer';
-@import './components/modal';
-
-

@@ -1,10 +1,10 @@
-.header {
+.site-header {
     padding: 25px;
   
-    background-color: var(red);
+    background-color: var(--first-background-color);
     border-bottom: 1px solid #ececec;
   }
-  .logo,
+  .site-logo,
   .site-nav-link {
     text-decoration: none;
   }
@@ -15,10 +15,6 @@
   }
   
   .header-container {
-    display: flex;
-    align-items: center;
-  }
-  .header-navigation {
     display: flex;
     align-items: center;
   }
