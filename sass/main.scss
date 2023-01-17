@@ -1,9 +1,15 @@
+@import './utils/vars';
+@import './utils/hidden';
+@import './base/common';
+@import './base/reset';
+@import './components/container';
+@import './components/modal';
+@import './components/title';
 @import './layouts/header';
 @import './layouts/hero';
 @import './layouts/advantages';
-@import './layouts/what-we-do';
 @import './layouts/team';
 @import './layouts/clients';
-@import './layouts/portfolio-filter';
+@import './layouts/portfolio-page-main';
 @import './layouts/portfolio-projects';
 @import './layouts/footer';
