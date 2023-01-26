@@ -1,0 +1,31 @@
+.service__title {
+    margin-bottom: 50px;
+  
+    display: flex;
+    justify-content: center;
+  }
+  .servise__list {
+    display: flex;
+    gap: 30px;
+  }
+  .servise__item-overlay {
+    position: relative;
+  }
+  .servise__item-label {
+    position: absolute;
+    bottom: 0;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 70px;
+  
+    background: rgba(47, 48, 58, 0.8);
+    color: rgba(255, 255, 255, 1);
+  
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.17;
+  }

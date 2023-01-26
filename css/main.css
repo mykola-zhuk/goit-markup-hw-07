@@ -425,7 +425,7 @@ img {
   background-size: cover;
 }
 
-.studiio-hero-title {
+.studio-hero__title {
   display: block;
   width: 696px;
   margin: 0 auto;
@@ -439,7 +439,7 @@ img {
   color: var(--third-text-color);
 }
 
-.studio-hero-btn {
+.studio-hero__btn {
   min-width: 216px;
   height: 50px;
   font-family: inherit;
@@ -461,7 +461,7 @@ img {
   padding-bottom: 0;
 }
 
-.advantages-name {
+.advantages__name {
   margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.14;
@@ -470,7 +470,7 @@ img {
   color: var(--main-text-color);
 }
 
-.advantages-item-bg {
+.advantages__item-bg {
   margin-bottom: 30px;
   height: 120px;
   align-items: center;
@@ -480,39 +480,38 @@ img {
   justify-content: center;
 }
 
-.advantages-list {
+.advantages__list {
   display: flex;
   gap: 30px;
 }
 
-.advantajes-icon {
+.advantages__icon {
   justify-content: center;
 }
 
-.advantages-text {
+.advantages__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
 
-/* ----------WHAT WE DO----------  */
-.service-title {
+.service__title {
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
 
-.servise-list {
+.servise__list {
   display: flex;
   gap: 30px;
 }
 
-.servse-item-overlay {
+.servise__item-overlay {
   position: relative;
 }
 
-.servise-item-label {
+.servise__item-label {
   position: absolute;
   bottom: 0;
   display: flex;

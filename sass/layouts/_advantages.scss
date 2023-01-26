@@ -1,7 +1,7 @@
 .advantages {
     padding-bottom: 0;
   }
-  .advantages-name {
+  .advantages__name {
     margin-bottom: 10px;
   
     font-size: 14px;
@@ -10,7 +10,7 @@
     text-transform: uppercase;
     color: var(--main-text-color);
   }
-  .advantages-item-bg {
+  .advantages__item-bg {
     margin-bottom: 30px;
     height: 120px;
     align-items: center;
@@ -21,48 +21,18 @@
     background: var(--btn-background-color);
     justify-content: center;
   }
-  .advantages-list {
+  .advantages__list {
     display: flex;
     gap: 30px;
   }
-  .advantajes-icon {
+  .advantages__icon {
     justify-content: center;
   }
-  .advantages-text {
+  .advantages__text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--second-text-color);
   }
-  /* ----------WHAT WE DO----------  */
-  .service-title {
-    margin-bottom: 50px;
+
   
-    display: flex;
-    justify-content: center;
-  }
-  .servise-list {
-    display: flex;
-    gap: 30px;
-  }
-  .servse-item-overlay {
-    position: relative;
-  }
-  .servise-item-label {
-    position: absolute;
-    bottom: 0;
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 370px;
-    height: 70px;
-  
-    background: rgba(47, 48, 58, 0.8);
-    color: rgba(255, 255, 255, 1);
-  
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 1.17;
-  }
