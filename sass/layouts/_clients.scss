@@ -9,15 +9,15 @@
     display: flex;
     justify-content: center;
   }
-  .clients-list {
+  .icon-list {
     display: flex;
     gap: 30px;
   }
-  .client-item {
+  .icon-list__item {
     width: 170px;
     height: 92px;
   }
-  .client-link {
+  .icon-list__link {
     transition: border-color var(--transition-value);
   
     width: 100%;
@@ -30,12 +30,12 @@
     justify-content: center;
     color: var(--icon-main-color);
   }
-  .client-icon {
+  .icon-list__icon {
     fill: currentColor;
     transition: var(--transition-value);
   }
-  .client-link:hover,
-  .client-link:focus {
+  .icon-list__link:hover,
+  .icon-list__link:focus {
     border-color: var(--btn-hover-background-color);
     color: var(--btn-hover-background-color);
   }
