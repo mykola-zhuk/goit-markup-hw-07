@@ -496,22 +496,22 @@ img {
   color: var(--second-text-color);
 }
 
-.service__title {
+.picture-list-title {
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
 
-.servise__list {
+.picture-list {
   display: flex;
   gap: 30px;
 }
 
-.servise__item-overlay {
+.picture-list__item-overlay {
   position: relative;
 }
 
-.servise__item-label {
+.picture-list__item-label {
   position: absolute;
   bottom: 0;
   display: flex;
