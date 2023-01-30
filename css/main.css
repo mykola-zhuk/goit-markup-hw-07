@@ -301,7 +301,7 @@ img {
 
 .advantages-title,
 .service-title,
-.team-title,
+.people-list__title,
 .clients-title {
   font-size: 36px;
   line-height: 1.16;
@@ -527,33 +527,33 @@ img {
   line-height: 1.17;
 }
 
-.team-title {
+.team {
+  background-color: var(--btn-background-color);
+}
+
+.people-list__title {
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
 }
 
-.team-list {
+.people-list {
   display: flex;
   gap: 30px;
 }
 
-.team-img {
+.people-list__img {
   margin-bottom: 30px;
 }
 
-.team {
-  background-color: var(--btn-background-color);
-}
-
-.team-item {
+.people-list__item {
   border-radius: 0px 0px 4px 4px;
   height: 428px;
   background-color: var(--third-text-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.team-member {
+.people-list__member {
   margin-bottom: 10px;
   text-align: center;
   font-weight: 500;
@@ -563,7 +563,7 @@ img {
   color: var(--main-text-color);
 }
 
-.team-position {
+.people-list__position {
   text-align: center;
   font-size: 16px;
   line-height: 1.18;
@@ -571,19 +571,19 @@ img {
   color: var(--second-text-color);
 }
 
-.team-soc-list {
+.people-list__social-list {
   display: flex;
   justify-content: center;
   gap: 10px;
   padding-top: 16px;
 }
 
-.team-soc-item {
+.people-list__social-item {
   width: 44px;
   height: 44px;
 }
 
-.team-soc-link {
+.people-list__social-link {
   transition: background-color var(--transition-value), color var(--transition-value);
   width: 100%;
   height: 100%;
@@ -594,13 +594,13 @@ img {
   color: var(--icon-main-color);
 }
 
-.team-soc-icon {
+.people-list__social-icon {
   fill: currentColor;
   transition: var(--transition-value);
 }
 
-.team-soc-link:hover,
-.team-soc-link:focus {
+.people-list__social-link:hover,
+.people-list__social-link:focus {
   background-color: var(--link-hover-color);
   color: var(--third-text-color);
 }
