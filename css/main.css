@@ -461,7 +461,12 @@ img {
   padding-bottom: 0;
 }
 
-.advantages__name {
+.card-list {
+  display: flex;
+  gap: 30px;
+}
+
+.card-list__title {
   margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.14;
@@ -470,7 +475,7 @@ img {
   color: var(--main-text-color);
 }
 
-.advantages__item-bg {
+.card-list__item-bg {
   margin-bottom: 30px;
   height: 120px;
   align-items: center;
@@ -480,16 +485,11 @@ img {
   justify-content: center;
 }
 
-.advantages__list {
-  display: flex;
-  gap: 30px;
-}
-
-.advantages__icon {
+.card-list__icon {
   justify-content: center;
 }
 
-.advantages__text {
+.card-list__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
