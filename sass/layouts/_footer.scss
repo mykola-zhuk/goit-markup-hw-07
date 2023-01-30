@@ -16,13 +16,9 @@
   }
   .footer-logo {
     display: inline-block;
+    text-decoration: none;
   }
-  .footer-logo-word {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+  .logo__word-studio--white {
     color: var(--third-text-color);
   }
   .adress {
