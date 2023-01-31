@@ -107,11 +107,11 @@ img {
   background-color: var(--btn-hover-color);
 }
 
-.backdrop.is-hidden .modal {
+.backdrop.backdrop--is-hidden .modal {
   transform: translate(-50%, -50%) scale(0);
 }
 
-.modal-close {
+.modal__close-btn {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -126,21 +126,21 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.modal-close-icon {
+.modal__close-icon {
   transition: var(--transition-value);
 }
 
-.modal-close:hover .modal-close-icon {
+.modal__close:hover .modal__close-icon {
   fill: var(--btn-hover-background-color);
 }
 
-.backdrop.is-hidden {
+.backdrop.backdrop--is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
 
-.modal-title {
+.modal__title {
   font-size: 20px;
   font-weight: 700;
   text-align: center;
