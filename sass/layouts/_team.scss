@@ -62,13 +62,14 @@
     justify-content: center;
   
     color: var(--icon-main-color);
+
+    &:hover,&:focus {
+    background-color: var(--link-hover-color);
+    color: var(--third-text-color);
+  }
   }
   .people-list__social-icon {
     fill: currentColor;
     transition: var(--transition-value);
   }
-  .people-list__social-link:hover,
-  .people-list__social-link:focus {
-    background-color: var(--link-hover-color);
-    color: var(--third-text-color);
-  }
+  

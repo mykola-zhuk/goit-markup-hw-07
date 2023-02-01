@@ -29,13 +29,15 @@
     align-items: center;
     justify-content: center;
     color: var(--icon-main-color);
+
+   &:hover,
+  &:focus {
+    border-color: var(--btn-hover-background-color);
+    color: var(--btn-hover-background-color);
+  }
   }
   .icon-list__icon {
     fill: currentColor;
     transition: var(--transition-value);
   }
-  .icon-list__link:hover,
-  .icon-list__link:focus {
-    border-color: var(--btn-hover-background-color);
-    color: var(--btn-hover-background-color);
-  }
+  

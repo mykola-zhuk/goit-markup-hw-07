@@ -37,7 +37,6 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    
   }
   .logo__word-studio--black {
     color: var(--logo-color-2);
@@ -58,18 +57,20 @@
   }
   .current {
     position: relative;
+
+    .link &::after {
+      position: absolute;
+      bottom: 3px;
+    
+      content: "";
+      display: block;
+      width: 100%;
+      height: 4px;
+      border-radius: 2px;
+      background-color: var(--link-hover-color);
+    }
   }
-  .link.current::after {
-    position: absolute;
-    bottom: 3px;
   
-    content: "";
-    display: block;
-    width: 100%;
-    height: 4px;
-    border-radius: 2px;
-    background-color: var(--link-hover-color);
-  }
   .connect__link {
     transition: color var(--transition-value);
   

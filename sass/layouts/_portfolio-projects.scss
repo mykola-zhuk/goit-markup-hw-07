@@ -4,15 +4,14 @@
     display: block;
     text-decoration: none;
     border-bottom: 1px solid #eeeeee;
-  }
-  .project:hover,
-  .project:focus {
+
+    &:hover,&:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
-  .project:hover .project__text-overley {
-    transform: translateY(0);
   }
+  
+  
   .projects-list {
     display: flex;
     gap: 30px;
@@ -47,6 +46,10 @@
     height: 100%;
   
     transition: transform var(--transition-value);
+
+    .project:hover & {
+      transform: translateY(0);
+    }
   }
   .project__text-bg {
     position: absolute;
