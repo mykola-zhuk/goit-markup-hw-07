@@ -660,7 +660,7 @@ img {
   gap: 8px;
 }
 
-.filter-btn {
+.filter__btn {
   transition: color var(--transition-value), background var(--transition-value), box-shadow var(--transition-value);
   padding-left: 22px;
   padding-right: 22px;
@@ -677,8 +677,8 @@ img {
   border-color: transparent;
 }
 
-.filter-btn:hover,
-.filter-btn:focus {
+.filter__btn:hover,
+.filter__btn:focus {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
