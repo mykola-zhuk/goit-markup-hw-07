@@ -713,13 +713,13 @@ img {
   flex-wrap: wrap;
 }
 
-.project-description {
+.project__description {
   padding: 20px 24px;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
 }
 
-.project-title {
+.project__title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
