@@ -307,6 +307,32 @@ img {
   color: var(--main-text-color);
 }
 
+@media screen and (max-width: 767px) {
+  .menu {
+    display: none;
+  }
+  .connect {
+    display: none;
+  }
+}
+.header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mobile-menu-open {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  line-height: 0;
+}
+
 .studio-hero {
   padding-top: 200px;
   padding-bottom: 200px;
