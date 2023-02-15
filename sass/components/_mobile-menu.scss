@@ -1,8 +1,9 @@
 .mobile-menu {
+  display: none;
   position:fixed;
   width: 100%;
-  height: 100%;
-  z-index: 1000;
+  max-height: 796px;
+  z-index: 1;
   top:0;
   left:0;
 
@@ -29,4 +30,31 @@ padding-bottom: 48px;
     line-height: 0;
 }
 
-
+.mobile-menu {
+}
+.container {
+}
+.mobile-menu_container {
+}
+.mob-menu-list {
+}
+.mobile-menu__item {
+}
+.mobile-menu__link {
+}
+.mobile-menu-connect {
+}
+.connect__item {
+}
+.connect__link {
+}
+.mobile-menu-connect__item {
+}
+.mobile-menu-connect__link {
+}
+.mobile-soc-list {
+}
+.mobile-soc__item {
+}
+.mobile-soc__link {
+}

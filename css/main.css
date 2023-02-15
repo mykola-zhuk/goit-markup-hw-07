@@ -307,6 +307,33 @@ img {
   color: var(--main-text-color);
 }
 
+.logo,
+.menu__link {
+  text-decoration: none;
+}
+
+.logo__word-web {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--logo-color-1);
+}
+
+.logo__word-studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+
+.logo__word-studio--black {
+  color: var(--logo-color-2);
+}
+
 @media screen and (max-width: 767px) {
   .menu {
     display: none;
@@ -329,20 +356,11 @@ img {
 }
 
 .mobile-menu {
+  display: none;
   position: fixed;
   width: 100%;
-  height: 100%;
-  z-index: 1000;
-  top: 0;
-  left: 0;
-  background-color: var(--first-background-color);
-}
-
-.mobile-menu {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  z-index: 1000;
+  max-height: 796px;
+  z-index: 1;
   top: 0;
   left: 0;
   background-color: var(--first-background-color);
