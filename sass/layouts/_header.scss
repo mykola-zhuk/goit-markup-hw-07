@@ -1,102 +1,110 @@
-// .header {
-//     padding: 25px;
+.header {
+    padding: 25px;
   
-//     background-color: var(--first-background-color);
-//     border-bottom: 1px solid #ececec;
-//   }
+    background-color: var(--first-background-color);
+    border-bottom: 1px solid #ececec;
+  }
+.header-container {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
   .logo,
   .menu__link {
     text-decoration: none;
   }
-//   .menu {
-//     display: flex;
-//     margin-left: 93px;
-//     gap: 50px;
-//   }
+  .logo__word-web {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height:calc(28/24);
+    letter-spacing: 0.03em;
+    color: var(--logo-color-1);
+  }
+  .logo__word-studio {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height:calc(28/24);
+    letter-spacing: 0.03em;
+  }
+  .logo__word-studio--black {
+    color: var(--logo-color-2);
+  }
+  .menu {
+    display: flex;
+    margin-left: 88px;
+    gap: 50px;
+  }
   
-//   .header-container {
-//     display: flex;
-//     align-items: center;
-//   }
-//   .navigation {
-//     display: flex;
-//     align-items: center;
-//   }
-.logo__word-web {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  color: var(--logo-color-1);
-}
-.logo__word-studio {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-}
-.logo__word-studio--black {
-  color: var(--logo-color-2);
-}
-  // .menu__link {
-  //   transition: var(--transition-value);
-  
-  //   padding-bottom: 35.5px;
-  
-  //   font-weight: 500;
-  //   font-size: 14px;
-  //   line-height: 1.14;
-  //   letter-spacing: 0.02em;
-  //   color: var(--main-link-color);
-  // }
-//   .menu__item {
-//     height: 100%;
-//   }
-//   .current {
-//     position: relative;
+  .header-container {
+    display: flex;
+    align-items: center;
+  }
+  .navigation {
+    display: flex;
+    align-items: center;
+  }
 
-//     .link &::after {
-//       position: absolute;
-//       bottom: 3px;
-    
-//       content: "";
-//       display: block;
-//       width: 100%;
-//       height: 4px;
-//       border-radius: 2px;
-//       background-color: var(--link-hover-color);
-//     }
-//   }
+  .menu__link {
+    // transition: var(--transition-value);
   
-//   .connect__link {
-//     transition: color var(--transition-value);
+    padding-bottom: 38px;
   
-//     font-weight: 500;
-//     font-size: 14px;
-//     line-height: 1.14;
-//     letter-spacing: 0.02em;
-//     color: var(--second-text-color);
-//     text-decoration: none;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     gap: 10px;
-//   }
-//   .connect__icon {
-//     fill: currentColor;
-//   }
-//   .connect {
-//     display: flex;
-//     margin-left: auto;
-//     gap: 50px;
-//   }
-//   .connect__item {
-//     align-items: center;
-//     display: flex;
-//   }
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    color: var(--main-link-color);
+  }
+  .menu__item {
+    height: 100%;
+  }
+  .current {
+  position: relative;
+  }
+  .link.current::after {
+  position: absolute;
+  bottom: 3px;
+
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--link-hover-color);
+  }
+  
+  
+  .connect__link {
+    transition: color var(--transition-value);
+  
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .connect__icon {
+    fill: currentColor;
+  }
+  .connect {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-left: auto;
+    // gap: 13px;
+  }
+  .connect__item {
+    align-items: center;
+    display: flex;
+  }
 
 @media  screen and (max-width:767px) {
   .menu {
@@ -106,18 +114,4 @@
     display: none;
   }
 }
-// .header {
-//   padding-top: 40px;
-//   padding-bottom: 40px;
-// }
-.header-container {
-  display:flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.mobile-menu-open {
-  background-color: transparent;
-  border: none;
-  padding: 0;
-  line-height: 0;
-}
+
