@@ -1,10 +1,13 @@
-.header {
-    padding: 25px;
-  
-    background-color: var(--first-background-color);
-    border-bottom: 1px solid #ececec;
+// -----------------Mobile-------------
+@media  screen and (max-width:767px) {
+  .menu {
+    display: none;
+  } 
+  .connect {
+    display: none;
   }
-.header-container {
+}
+  .header-container {
   display:flex;
   align-items: center;
   justify-content: space-between;
@@ -32,6 +35,15 @@
   .logo__word-studio--black {
     color: var(--logo-color-2);
   }
+  //----------Tablet----------
+  @media screen and (min-width:768px) {
+.header {
+    padding: 25px;
+  
+    background-color: var(--first-background-color);
+    border-bottom: 1px solid #ececec;
+  }
+
   .menu {
     display: flex;
     margin-left: 88px;
@@ -48,9 +60,9 @@
   }
 
   .menu__link {
-    // transition: var(--transition-value);
+    transition: var(--transition-value);
   
-    padding-bottom: 38px;
+    padding-bottom: 44px;
   
     font-weight: 500;
     font-size: 14px;
@@ -99,19 +111,26 @@
     flex-direction: column;
     gap: 13px;
     margin-left: auto;
-    // gap: 13px;
   }
   .connect__item {
     align-items: center;
     display: flex;
   }
-
-@media  screen and (max-width:767px) {
-  .menu {
-    display: none;
-  } 
-  .connect {
-    display: none;
-  }
+}
+//----------Desktop----------
+@media screen and (min-width:1200px){
+.navigation {
+  margin-left: 93px;
+  gap: 50px;
+}
+.connect {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  gap: 50px;
+}
+.menu__link {
+  padding-bottom:  35.5px;
+}
 }
 
