@@ -43,13 +43,11 @@
     background-color: var(--first-background-color);
     border-bottom: 1px solid #ececec;
   }
-
   .menu {
     display: flex;
     margin-left: 88px;
     gap: 50px;
   }
-  
   .header-container {
     display: flex;
     align-items: center;
@@ -58,7 +56,6 @@
     display: flex;
     align-items: center;
   }
-
   .menu__link {
     transition: var(--transition-value);
   
@@ -87,8 +84,6 @@
   border-radius: 2px;
   background-color: var(--link-hover-color);
   }
-  
-  
   .connect__link {
     transition: color var(--transition-value);
   
