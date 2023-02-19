@@ -69,9 +69,6 @@
         background-image: url(/imajes/Hero/hero-bg-mob2x.jpg);
     }
   }
-
-
-
 // Tablet 
 @media screen and (min-width:768px) and (max-width:1199px) {
     .studio-hero__title {
@@ -96,14 +93,11 @@
 // Desctop
 @media screen and (min-width:1200px) {
     .studio-hero {
-        background-image: url(/imajes/Hero/hero-bg-desctop.jpg);
-    }
-    .studio-hero {
         padding-top: 200px;
         padding-bottom: 200px;
-  
+        background-image: url(/imajes/Hero/hero-bg-desctop.jpg);
     }
-}
+    }
 @media screen and (min-device-pixel-ratio: 2) and (min-width:1200px),
   screen and (min-resolution: 192dpi) and (min-width:1200px),
   screen and (min-resolution: 2dppx) and (min-width:1200px) {

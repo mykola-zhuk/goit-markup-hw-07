@@ -130,7 +130,6 @@ img {
 }
 
 .modal__close-btn {
-  width: 30px;
   height: 30px;
   border-radius: 50%;
   position: absolute;
@@ -301,6 +300,17 @@ img {
   transition: background-color 200ms linear;
 }
 
+@media screen and (max-width: 440px) {
+  .check-text {
+    font-size: 9px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .modal {
+    width: 100vw;
+    height: 100vh;
+  }
+}
 .advantages-title,
 .service-title,
 .people-list__title,
@@ -626,11 +636,9 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .studio-hero {
-    background-image: url(/imajes/Hero/hero-bg-desctop.jpg);
-  }
-  .studio-hero {
     padding-top: 200px;
     padding-bottom: 200px;
+    background-image: url(/imajes/Hero/hero-bg-desctop.jpg);
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {

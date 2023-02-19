@@ -7,6 +7,7 @@
   
     transition: opacity 300ms linear, visibility 300ms linear;
   }
+  
   .modal {
     position: absolute;
     top: 50%;
@@ -26,8 +27,8 @@
     }
   }
   
+  
   .modal__close-btn {
-    width: 30px;
     height: 30px;
   
     border-radius: 50%;
@@ -159,6 +160,7 @@
     display: flex;
     gap: 50px;
   }
+  
   .check-text {
     font-size: 14px;
     font-weight: 400;
@@ -188,6 +190,7 @@
       align-items: center;
     }
 
+
     .input-check:checked + & span {
       background-color: var(--btn-hover-background-color);
       border-color: transparent;
@@ -203,6 +206,17 @@
     transition: background-color 200ms linear;
   }
   
-  
+  @media screen and (max-width:440px) {
+        .check-text {
+font-size: 9px;
+    }
+  }
+  @media screen and (max-width:767px) {
+    .modal {
+      width: 100vw;
+      height: 100vh;
+    }
+  }
+
   
   
