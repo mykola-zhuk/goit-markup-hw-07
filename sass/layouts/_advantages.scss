@@ -44,5 +44,11 @@
   text-align: center;
 }
   }
-
-  @media
+  @media screen and (min-width:768px) and (max-width:1199px) {
+.card-list {
+  flex-wrap: wrap;
+}
+.card-list__item {
+  width:354px;
+}
+  }

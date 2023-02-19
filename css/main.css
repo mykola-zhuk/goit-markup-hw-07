@@ -693,6 +693,14 @@ img {
     text-align: center;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .card-list {
+    flex-wrap: wrap;
+  }
+  .card-list__item {
+    width: 354px;
+  }
+}
 .picture-list-title {
   margin-bottom: 50px;
   display: flex;
