@@ -652,6 +652,7 @@ img {
 
 .card-list {
   display: flex;
+  flex-direction: column;
   gap: 30px;
 }
 
@@ -664,6 +665,11 @@ img {
   color: var(--main-text-color);
 }
 
+@media screen and (max-width: 479px) {
+  .card-list__title {
+    text-align: center;
+  }
+}
 .card-list__item-bg {
   margin-bottom: 30px;
   height: 120px;
