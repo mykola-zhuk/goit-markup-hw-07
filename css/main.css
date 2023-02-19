@@ -1005,25 +1005,18 @@ img {
 }
 
 .footer__adress-container {
-  margin-right: 70px;
-}
-
-.footer__wraper {
   display: flex;
-  align-items: baseline;
-}
-
-.footer__container .site-logo {
-  margin-bottom: 20px;
-}
-
-.footer__logo {
-  display: inline-block;
-  text-decoration: none;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
 }
 
 .logo__word-studio--white {
   color: var(--third-text-color);
+}
+
+.site-logo {
+  margin-bottom: 28px;
 }
 
 .adress {
@@ -1032,7 +1025,7 @@ img {
 
 .adress__map-link {
   display: inline-block;
-  margin-bottom: 9px;
+  margin-bottom: 12px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -1040,8 +1033,15 @@ img {
   text-decoration: none;
 }
 
+.adress__contacts-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .adress__contacts-list :first-child {
-  margin-bottom: 9px;
+  margin-bottom: 12px;
 }
 
 .adress__contact {
@@ -1053,20 +1053,18 @@ img {
 }
 
 .footer-soc__container {
-  margin-right: 93px;
-  display: inline-block;
-  width: 206px;
-  height: 80px;
+  margin-bottom: 96px;
 }
 
 .footer-soc__title {
-  margin-bottom: 10px;
+  text-align: center;
   font-style: normal;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--third-text-color);
+  margin-bottom: 20px;
 }
 
 .footer-soc__list {
@@ -1098,26 +1096,23 @@ img {
   fill: var(--first-background-color);
 }
 
-/* ----------FOOTER FORM SUBSCRIBE--------- */
-.subscribe__container {
-  display: block;
-}
-
 .subscribe__title {
+  text-align: center;
+  margin-bottom: 20px;
   color: var(--first-background-color);
   font-style: normal;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 20px;
 }
 
 .subscribe__form {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
 }
 
 .subscribe__email {
@@ -1125,11 +1120,16 @@ img {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
   padding-left: 16px;
-  width: 358px;
+  width: 450px;
   height: 50px;
   color: var(--first-background-color);
 }
 
+@media screen and (max-width: 479px) {
+  .subscribe__email {
+    width: 200px;
+  }
+}
 .subscribe__email::-moz-placeholder {
   color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
@@ -1137,7 +1137,6 @@ img {
   line-height: 1.25;
   letter-spacing: 0.03em;
 }
-
 .subscribe__email::placeholder {
   color: rgba(255, 255, 255, 0.6);
   font-size: 16px;

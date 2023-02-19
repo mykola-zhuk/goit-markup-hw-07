@@ -1,57 +1,84 @@
 .footeer {
     padding-top: 60px;
     padding-bottom: 60px;
-  
     background-color: var(--second-background-color);
   }
-  .footer__adress-container {
-    margin-right: 70px;
+.footer__adress-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+margin-bottom: 60px;
+
+  // margin-right: 70px;
   }
-  .footer__wraper {
-    display: flex;
-    align-items: baseline;
-  }
-  .footer__container .site-logo {
-    margin-bottom: 20px;
-  }
-  .footer__logo {
-    display: inline-block;
-    text-decoration: none;
-  }
+
+//   .footer__wraper {
+//     display: flex;
+//     align-items: baseline;
+//   }
+//   .footer__container .site-logo {
+//     margin-bottom: 20px;
+//   }
+//   .footer__logo {
+//     display: inline-block;
+//     text-decoration: none;
+//   }
   .logo__word-studio--white {
     color: var(--third-text-color);
   }
+  .site-logo {
+margin-bottom: 28px;
+  }
+// Footer-adress
+
   .adress {
     font-style: normal;
   }
   .adress__map-link {
     display: inline-block;
-    margin-bottom: 9px;
   
+  margin-bottom: 12px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--third-text-color);
     text-decoration: none;
+
+      // margin-bottom: 9px;
+  }
+  .adress__contacts-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .adress__contacts-list :first-child {
-    margin-bottom: 9px;
+ margin-bottom: 12px;
+
+    // margin-bottom: 9px;
   }
   .adress__contact {
+
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
   }
+// Footer-soc
+
   .footer-soc__container {
-    margin-right: 93px;
-    display: inline-block;
-    width: 206px;
-    height: 80px;
+    margin-bottom:  96px;
+
+
+    // margin-right: 93px;
+    // display: inline-block;
+    // width: 206px;
+    // height: 80px;
   }
   .footer-soc__title {
-    margin-bottom: 10px;
+    text-align: center;
   
     font-style: normal;
     font-size: 14px;
@@ -60,6 +87,9 @@
     text-transform: uppercase;
   
     color: var(--third-text-color);
+    margin-bottom: 20px;
+
+        // margin-bottom: 10px;
   }
   .footer-soc__list {
     display: flex;
@@ -86,15 +116,22 @@
     background-color: var(--btn-hover-background-color);
   }
   }
-  
   .footer-soc__icon {
     fill: var(--first-background-color);
   }
-  /* ----------FOOTER FORM SUBSCRIBE--------- */
+
+  
+
+
+//   /* ----------FOOTER FORM SUBSCRIBE--------- */
   .subscribe__container {
-    display: block;
+
+
+    // display: block;
   }
   .subscribe__title {
+text-align: center;
+margin-bottom: 20px;
     color: var(--first-background-color);
   
     font-style: normal;
@@ -103,24 +140,39 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
   
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
   }
   .subscribe__form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 20px;
+
+
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // gap: 10px;
   }
   .subscribe__email {
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
     padding-left: 16px;
-  
-    width: 358px;
+    width: 450px;
     height: 50px;
+
+
+    // width: 358px;
+    // height: 50px;
   
     color: var(--first-background-color);
+  }
+  @media screen and (max-width:479px) {
+    .subscribe__email {
+      width: 200px;
+    }
   }
   .subscribe__email::placeholder {
     color: rgba(255, 255, 255, 0.6);
@@ -135,9 +187,9 @@
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
-  
-    width: 200px;
-    height: 50px;
+  width: 200px;
+  height: 50px;
+ 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -148,9 +200,12 @@
     gap: 10px;
     border-radius: 4px;
     border-color: transparent;
+
+       // width: 200px;
+    // height: 50px;
   }
-  .subscribe__btn span {
-  }
+//   .subscribe__btn span {
+//   }
   .subscribe__icon {
     fill: var(--first-background-color);
   }
