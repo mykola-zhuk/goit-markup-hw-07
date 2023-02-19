@@ -10,7 +10,7 @@ align-items: center;
 
 margin-bottom: 60px;
 
-  // margin-right: 70px;
+
   }
 
 //   .footer__wraper {
@@ -119,10 +119,6 @@ margin-bottom: 28px;
   .footer-soc__icon {
     fill: var(--first-background-color);
   }
-
-  
-
-
 //   /* ----------FOOTER FORM SUBSCRIBE--------- */
   .subscribe__container {
 
@@ -208,4 +204,15 @@ gap: 20px;
 //   }
   .subscribe__icon {
     fill: var(--first-background-color);
+  }
+// Tablet
+  @media screen and (min-width:768px) and (max-width:1199px){
+  .footer-connect{
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  // Desctop
+  @media screen and (min-width:1200px) {
+    
   }
