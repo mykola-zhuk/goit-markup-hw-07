@@ -547,8 +547,8 @@ img {
   }
 }
 .studio-hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 118px;
+  padding-bottom: 118px;
   background-color: var(--second-background-color);
   text-align: center;
   background-color: #c4c4c4;
@@ -558,6 +558,45 @@ img {
   background-size: cover;
 }
 
+.studio-hero__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.6153846154;
+  letter-spacing: 0.06em;
+  width: 360px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  color: var(--third-text-color);
+}
+
+.studio-hero__btn {
+  min-width: 200px;
+  height: 50px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--btn-hover-color);
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background: var(--logo-color-1);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-color: transparent;
+}
+
+@media screen and (max-width: 390px) {
+  .studio-hero__title {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 300px;
+  }
+}
 @media screen and (max-width: 767px) {
   .studio-hero {
     background-image: url(/imajes/Hero/hero-bg-mob.jpg);
@@ -568,9 +607,16 @@ img {
     background-image: url(/imajes/Hero/hero-bg-mob2x.jpg);
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .studio-hero__title {
+    width: 360px;
+  }
+}
 @media screen and (min-width: 768px) {
   .studio-hero {
     background-image: url(/imajes/Hero/hero-bg-tablet.jpg);
+    padding-top: 118px;
+    padding-bottom: 118px;
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
@@ -581,6 +627,10 @@ img {
 @media screen and (min-width: 1200px) {
   .studio-hero {
     background-image: url(/imajes/Hero/hero-bg-desctop.jpg);
+  }
+  .studio-hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
