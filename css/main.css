@@ -701,6 +701,11 @@ img {
     width: 354px;
   }
 }
+@media screen and (max-width: 1199px) {
+  .what-we-do_container {
+    display: none;
+  }
+}
 .picture-list-title {
   margin-bottom: 50px;
   display: flex;
