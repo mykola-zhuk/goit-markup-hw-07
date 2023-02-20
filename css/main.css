@@ -450,7 +450,6 @@ img {
 }
 @media screen and (max-width: 767px) {
   .mobile-menu {
-    display: none;
     position: fixed;
     width: 100vw;
     height: 100vh;
