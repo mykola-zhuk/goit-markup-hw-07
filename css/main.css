@@ -210,6 +210,7 @@ img {
 
 .input-wrap {
   position: relative;
+  margin-bottom: 10px;
 }
 
 .modal-input__icon {
@@ -231,7 +232,7 @@ img {
 }
 
 .comment-field {
-  margin-top: 10px;
+  margin-bottom: 18px;
 }
 
 .modal__text {
@@ -258,7 +259,7 @@ img {
 .privacy-field {
   width: 425px;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
   display: flex;
   gap: 50px;
 }
