@@ -1,6 +1,5 @@
 @media screen and (max-width:767px) {
   .mobile-menu {
-    // display: none;
     position:fixed;
     width: 100vw;
     height: 100vh;
@@ -88,10 +87,22 @@
   .mobile-soc__item:not(:last-child) {
     margin-right:20px;
     }
-    @media  screen and (max-width:370px) {
-      .mobile-soc__item:not(:last-child) {
-        margin:0 auto;
-        }
+    @media  screen and (max-width:479px) {
+      .mobile-menu-list {
+        gap:10px;
+        margin-bottom: 30px;
+      }
+      .mobile-menu-connect {
+        gap:10px;
+        margin-bottom: 30px;
+      }
+      .mobile-soc-list {
+        flex-direction: column;
+        gap: 10px;
+      }
+      .mobile-soc__item:not(:last-child)::after {
+        display: none;
+      }
     }
     .mobile-soc__item:not(:last-child)::after {
   content:'';

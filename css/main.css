@@ -525,9 +525,21 @@ img {
     margin-right: 20px;
   }
 }
-@media screen and (max-width: 767px) and (max-width: 370px) {
-  .mobile-soc__item:not(:last-child) {
-    margin: 0 auto;
+@media screen and (max-width: 767px) and (max-width: 479px) {
+  .mobile-menu-list {
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  .mobile-menu-connect {
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  .mobile-soc-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .mobile-soc__item:not(:last-child)::after {
+    display: none;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1174,7 +1186,7 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer-connect {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 }
 @media screen and (min-width: 1200px) {
