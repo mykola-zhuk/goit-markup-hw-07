@@ -222,12 +222,12 @@ img {
 }
 .modal__text::-moz-placeholder {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   color: rgba(117, 117, 117, 0.5);
 }
 .modal__text::placeholder {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   color: rgba(117, 117, 117, 0.5);
 }
 
@@ -304,6 +304,36 @@ img {
   .modal {
     width: 100vw;
     height: 100vh;
+  }
+}
+@media screen and (min-width: 768px) {
+  .privacy-field {
+    justify-content: start;
+    width: 370px;
+    gap: 8px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    padding: 40px;
+    width: 528px;
+    min-height: 581px;
+    border-radius: 4px;
+  }
+  .modal__close-btn {
+    top: 10px;
+    right: 10px;
+  }
+  .comment-field {
+    margin-bottom: 18px;
+  }
+  .privacy-field {
+    margin-bottom: 32px;
+    width: 425px;
+    gap: 50px;
+  }
+  .check-text {
+    font-size: 14px;
   }
 }
 .advantages-title,

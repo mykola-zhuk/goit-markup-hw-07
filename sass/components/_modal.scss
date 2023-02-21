@@ -7,7 +7,6 @@
   
     transition: opacity 300ms linear, visibility 300ms linear;
   }
-  
   .modal {
     width: 450px;
     height: 609px;
@@ -24,14 +23,7 @@
     .backdrop.backdrop--is-hidden & {
       transform: translate(-50%, -50%) scale(0);
     }
-
-    // padding: 40px;
-    // width: 528px;
-    // min-height: 581px;
-    // border-radius: 4px;
   }
-  
-  
   .modal__close-btn {
   height: 30px;
   top:8px;
@@ -49,8 +41,7 @@
     background-color: transparent;
     border: 1px solid rgba(0, 0, 0, 0.2);
 
-    // top: 10px;
-    // right: 10px;
+   
   }
   .modal__close-icon {
     transition: var(--transition-value);
@@ -132,15 +123,13 @@
 
   &::placeholder {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
     color: rgba(117, 117, 117, 0.5);
   }
 }
   
   .comment-field {
 margin-bottom: 20px;
-
-  // margin-bottom: 18px;
   }
   .modal__text {
     padding-left: 16px;
@@ -166,9 +155,7 @@ margin-bottom: 20px;
   }
 //   /* ----------FORM CHECKBOX--------- */
   .privacy-field {
-justify-content: center;
-
-   
+    justify-content: center;
 
     margin: 0 auto;
     margin-bottom:  30px; 
@@ -176,13 +163,11 @@ justify-content: center;
 
   
   
-    // margin-bottom: 32px;
-    // width: 425px;
-    // gap: 50px;
+ 
   }
-  
+
   .check-text {
-    // font-size: 14px;
+   
     font-size: 12px;
     font-weight: 400;
     line-height: 1.71;
@@ -234,12 +219,35 @@ justify-content: center;
     }
   }
 
-//   @media screen and (max-width:767px) {
-//     .modal {
-//       width: 100vw;
-//       height: 100vh;
-//     }
-//   }
 
-  
+  @media screen and (min-width:768px) {
+    .privacy-field {
+      justify-content: start;
+      width: 370px;
+      gap: 8px;
+    }
+      }
+   @media screen and (min-width:1200px) {
+.modal {
+  padding: 40px;
+  width: 528px;
+  min-height: 581px;
+  border-radius: 4px;
+}
+.modal__close-btn {
+  top: 10px;
+  right: 10px;
+}
+.comment-field {
+  margin-bottom: 18px;
+}
+.privacy-field {
+  margin-bottom: 32px;
+  width: 425px;
+  gap: 50px;
+}
+.check-text {
+  font-size: 14px;
+}
+   }
   
