@@ -251,3 +251,14 @@ margin-bottom: 20px;
 }
    }
   
+   @media screen and  (orientation: landscape) {
+    .backdrop {
+      overflow: scroll;
+    }
+    .modal {
+     
+      top: 20px;
+      left: 131px;
+      transform:translateY(0%);
+    }
+   }
