@@ -655,12 +655,12 @@ img {
 }
 @media screen and (max-width: 767px) {
   .studio-hero {
-    background-image: url(/imajes/Hero/hero-bg-mob.jpg);
+    background-image: url(../imajes/Hero/hero-bg-mob.jpg), linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px), screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px), screen and (min-resolution: 192dpi) and (max-width: 767px), screen and (min-resolution: 2dppx) and (max-width: 767px) {
   .studio-hero {
-    background-image: url(/imajes/Hero/hero-bg-mob2x.jpg);
+    background-image: url(../imajes/Hero/hero-bg-mob2x.jpg);
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -670,26 +670,26 @@ img {
 }
 @media screen and (min-width: 768px) {
   .studio-hero {
-    background-image: url(/imajes/Hero/hero-bg-tablet.jpg);
+    background-image: url(../imajes/Hero/hero-bg-tablet.jpg);
     padding-top: 118px;
     padding-bottom: 118px;
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .studio-hero {
-    background-image: url(/imajes/Hero/hero-bg-tablet2x.jpg);
+    background-image: url(../imajes/Hero/hero-bg-tablet2x.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
   .studio-hero {
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: url(/imajes/Hero/hero-bg-desctop.jpg);
+    background-image: url(../imajes/Hero/hero-bg-desctop.jpg);
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   .studio-hero {
-    background-image: url(/imajes/Hero/hero-bg-desctop2x.jpg);
+    background-image: url(../imajes/Hero/hero-bg-desctop2x.jpg);
   }
 }
 .advantages {
@@ -798,6 +798,11 @@ img {
   gap: 30px;
 }
 
+.people-list__container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 @media screen and (max-width: 767px) {
   .people-list {
     flex-direction: column;
@@ -812,12 +817,12 @@ img {
   }
 }
 .people-list__img {
-  margin-bottom: 30px;
+  width: 100%;
+  height: auto;
 }
 
 .people-list__item {
   border-radius: 0px 0px 4px 4px;
-  height: 428px;
   background-color: var(--third-text-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -1221,6 +1226,7 @@ img {
   .footer-connect {
     display: flex;
     justify-content: space-around;
+    align-items: baseline;
   }
 }
 @media screen and (min-width: 1200px) {
