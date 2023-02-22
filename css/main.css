@@ -608,7 +608,6 @@ img {
   background-color: var(--second-background-color);
   text-align: center;
   background-color: #c4c4c4;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -660,7 +659,7 @@ img {
 }
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px), screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px), screen and (min-resolution: 192dpi) and (max-width: 767px), screen and (min-resolution: 2dppx) and (max-width: 767px) {
   .studio-hero {
-    background-image: url(../imajes/Hero/hero-bg-mob2x.jpg);
+    background-image: url(../imajes/Hero/hero-bg-mob2x.jpg), linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -670,26 +669,26 @@ img {
 }
 @media screen and (min-width: 768px) {
   .studio-hero {
-    background-image: url(../imajes/Hero/hero-bg-tablet.jpg);
+    background-image: url(../imajes/Hero/hero-bg-tablet.jpg), linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
     padding-top: 118px;
     padding-bottom: 118px;
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .studio-hero {
-    background-image: url(../imajes/Hero/hero-bg-tablet2x.jpg);
+    background-image: url(../imajes/Hero/hero-bg-tablet2x.jpg), linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
   }
 }
 @media screen and (min-width: 1200px) {
   .studio-hero {
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: url(../imajes/Hero/hero-bg-desctop.jpg);
+    background-image: url(../imajes/Hero/hero-bg-desctop.jpg), linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
   }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   .studio-hero {
-    background-image: url(../imajes/Hero/hero-bg-desctop2x.jpg);
+    background-image: url(../imajes/Hero/hero-bg-desctop2x.jpg), linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
   }
 }
 .advantages {
@@ -813,7 +812,7 @@ img {
     flex-wrap: wrap;
   }
   .people-list__item {
-    width: 354px;
+    width: calc(100% - 30px)/2;
   }
 }
 .people-list__img {

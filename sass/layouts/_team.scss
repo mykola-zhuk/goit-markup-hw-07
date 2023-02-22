@@ -26,7 +26,7 @@ padding-bottom: 30px;
       flex-wrap: wrap;
     }
     .people-list__item {
-      width: 354px;
+      width: calc(100% - 30px) / 2;
     }
   }
   .people-list__img {
